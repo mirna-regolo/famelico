@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ingredienti - Famelico</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-container">
+      <a class="navbar-brand" href="../index.html">famelico
+      </a>
+      <ul class="nav-links">
+        <li><a href="ingredienti.html">Ingredients</a></li>
+        <li><a href="ricette.html">Recipes</a></li>
+        <li><a href="regioni.html">Regions</a></li>
+        <li><a href="fonti.html">Sources</a></li>
+      </ul>
+      <div class="navbar-right"><a href="about.html">About</a></div>
+    </div>
+  </nav>
+
+    <div class="menu-container">
+      <button id="toggle-menu" aria-label="Explore categories" title="Explore categories">
+        <i class="fas-slider-h"></i>
+      </button>
+      <div class="fixed-menu d-none">
+        <h5 class="fixed-menu-title">Explore categories</h5>
+        <form id="category-filters">
+          <label class="filter-item">
+            <input type="radio" name="category" value="Tutti" checked>
+            All the ingredients
+          </label>
+        </form>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <!-- Griglia Ingredienti -->
+      <div class="row ing-container">
+        <!-- Qui verranno inseriti gli ingredienti di una categoria -->
+      </div>
+      <img src="images/decoration-mush.png" alt="decorative ing" class="decorative-ing">
+    </div>
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- Logo or Project Name -->
+        <a class="footer-logo">famelico
+        </a>
+        <!-- Project Information -->
+        <div class="footer-info">
+          <p>&copy; 2024 Famelico. All rights reserved.</p>
+          <p>
+            Project developed for the final thesis in 
+            <a href="https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge" target="_blank" style="color: #971a0f">Digital Humanities and Digital Knowledge</a>.
+          </p>
+        </div>
+        <!-- Social Media -->
+        <div class="footer-social">
+          <a href="https://github.com" target="_blank" aria-label="Github">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="60" height="60" viewBox="0,0,256,256">
+              <g fill="#5a4631" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                <g transform="scale(8.53333,8.53333)">
+                  <path d="M15,3c-6.627,0 -12,5.373 -12,12c0,5.623 3.872,10.328 9.092,11.63c-0.056,-0.162 -0.092,-0.35 -0.092,-0.583v-2.051c-0.487,0 -1.303,0 -1.508,0c-0.821,0 -1.551,-0.353 -1.905,-1.009c-0.393,-0.729 -0.461,-1.844 -1.435,-2.526c-0.289,-0.227 -0.069,-0.486 0.264,-0.451c0.615,0.174 1.125,0.596 1.605,1.222c0.478,0.627 0.703,0.769 1.596,0.769c0.433,0 1.081,-0.025 1.691,-0.121c0.328,-0.833 0.895,-1.6 1.588,-1.962c-3.996,-0.411 -5.903,-2.399 -5.903,-5.098c0,-1.162 0.495,-2.286 1.336,-3.233c-0.276,-0.94 -0.623,-2.857 0.106,-3.587c1.798,0 2.885,1.166 3.146,1.481c0.896,-0.307 1.88,-0.481 2.914,-0.481c1.036,0 2.024,0.174 2.922,0.483c0.258,-0.313 1.346,-1.483 3.148,-1.483c0.732,0.731 0.381,2.656 0.102,3.594c0.836,0.945 1.328,2.066 1.328,3.226c0,2.697 -1.904,4.684 -5.894,5.097c1.098,0.573 1.899,2.183 1.899,3.396v2.734c0,0.104 -0.023,0.179 -0.035,0.268c4.676,-1.639 8.035,-6.079 8.035,-11.315c0,-6.627 -5.373,-12 -12,-12z"></path>
+                </g>
+              </g>
+            </svg>
+          </a>
+          <a href="https://linkedin.com" target="_blank" aria-label="Linkedin">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="60" height="60" viewBox="0,0,256,256">
+              <g fill="#5a4631" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                <g transform="scale(8.53333,8.53333)">
+                  <path d="M24,4h-18c-1.105,0 -2,0.895 -2,2v18c0,1.105 0.895,2 2,2h18c1.105,0 2,-0.895 2,-2v-18c0,-1.105 -0.895,-2 -2,-2zM10.954,22h-2.95v-9.492h2.95zM9.449,11.151c-0.951,0 -1.72,-0.771 -1.72,-1.72c0,-0.949 0.77,-1.719 1.72,-1.719c0.948,0 1.719,0.771 1.719,1.719c0,0.949 -0.771,1.72 -1.719,1.72zM22.004,22h-2.948v-4.616c0,-1.101 -0.02,-2.517 -1.533,-2.517c-1.535,0 -1.771,1.199 -1.771,2.437v4.696h-2.948v-9.492h2.83v1.297h0.04c0.394,-0.746 1.356,-1.533 2.791,-1.533c2.987,0 3.539,1.966 3.539,4.522z"></path>
+                </g>
+              </g>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const currentPath = window.location.pathname;
+        const navLinks = document.querySelectorAll(".nav-links a");
+        const toggleButton = document.querySelector('#toggle-menu'); // Bottone per mostrare/nascondere il menu
+        const fixedMenu = document.querySelector('.fixed-menu'); // Contenitore del menu fisso
+        const ingredientiContainer = document.querySelector('.ing-container'); // Contenitore per gli ingredienti
+        let ingredientiData = []; // Array per gli ingredienti caricati
+        let ricetteData = []; // Array per le ricette caricate
+      
+        // Mappa per le immagini delle categorie
+        const categoryImages = {
+          "Dairy": 'images/latticini.png',
+          "Meat and derivative": 'images/carne.png',
+          "Vegetables": 'images/verdura.png',
+          "Spices": 'images/spezie.png',
+          "Altro": 'images/altro.png',
+          "Cereals and derivative": 'images/cereali.png',
+          "Fish": 'images/pesce.png'
+        };
+      
+        // Evidenzia il link attivo nella navbar
+        navLinks.forEach((link) => {
+          if (link.href.includes(currentPath)) {
+            link.classList.add("active");
+          } else {
+            link.classList.remove("active");
+          }
+        });
+      
+        // Imposta il contenuto iniziale del bottone per il menu
+        toggleButton.innerHTML = `<i class="fas fa-sliders-h"></i>`;
+      
+        // Mostra/nasconde il menu e cambia l'icona
+        toggleButton.addEventListener('click', () => {
+          fixedMenu.classList.toggle('d-none');
+          toggleButton.classList.toggle('active');
+      
+          const icon = toggleButton.querySelector('i');
+          if (fixedMenu.classList.contains('d-none')) {
+            icon.className = 'fas fa-sliders-h';
+            toggleButton.innerHTML = `<i class="fas fa-sliders-h"></i>`;
+          } else {
+            icon.className = 'fas fa-times';
+            toggleButton.innerHTML = `<i class="fas fa-sliders-h"></i>`;
+          }
+        });
+      
+        // Carica i dati JSON per ingredienti e ricette
+        Promise.all([
+          fetch('data/ingredienti.json').then(res => res.json()),
+          fetch('data/ricette.json').then(res => res.json())
+        ])
+          .then(([ingredienti, ricette]) => {
+            ingredientiData = ingredienti;
+            ricetteData = ricette;
+            console.log('Dati caricati:', { ingredientiData, ricetteData });
+            createFilterButtons(ingredientiData);
+            renderIngredienti(ingredientiData, 'Tutti');
+          })
+          .catch(error => console.error('Errore nel caricamento dei dati:', error));
+      
+        // Crea i pulsanti per filtrare gli ingredienti per categoria
+        function createFilterButtons(ingredienti) {
+          const categorie = ['Tutti', ...new Set(ingredienti.map(ingrediente => ingrediente.categoria))];
+      
+          fixedMenu.innerHTML = ''; // Resetta il menu
+          const menuTitle = document.createElement('h5');
+          menuTitle.className = 'fixed-menu-title';
+          menuTitle.textContent = 'Explore categories';
+          fixedMenu.appendChild(menuTitle);
+      
+          const form = document.createElement('form');
+          form.id = 'category-filters';
+      
+          categorie.forEach(categoria => {
+            const label = document.createElement('label');
+            label.className = 'filter-item';
+            label.innerHTML = `
+              <input type="radio" name="category" value="${categoria}" ${categoria === 'Tutti' ? 'checked' : ''}>
+              <span>${categoria}</span>
+            `;
+            form.appendChild(label);
+          });
+      
+          fixedMenu.appendChild(form);
+      
+          form.addEventListener('change', (event) => {
+            const selectedCategory = event.target.value;
+            const filteredIngredienti = selectedCategory === 'Tutti'
+              ? ingredientiData
+              : ingredientiData.filter(ingrediente => ingrediente.categoria === selectedCategory);
+            renderIngredienti(filteredIngredienti, selectedCategory);
+          });
+        }
+      
+        // Mostra gli ingredienti come card nella griglia
+        function renderIngredienti(ingredienti, categoria) {
+          console.log(`Ingredienti mostrati per categoria: ${categoria}`, ingredienti);
+          ingredientiContainer.innerHTML = ''; // Resetta il contenitore
+      
+          ingredienti.forEach(ingrediente => {
+            // Recupera le ricette associate all'ingrediente
+            const ricette = getRicetteByIngredient(ingrediente.id);
+            let ricetteLinks = '';
+      
+            if (ricette.length > 0) {
+              if (ricette.length > 2) {
+                const visibleRecipes = ricette.slice(0, 2);
+                const hiddenRecipes = ricette.slice(2);
+                ricetteLinks = `
+                  <p class="card-text">Recipes:</p>
+                  <ul class="ricette-list">
+                    ${visibleRecipes.map(ricetta => `<li><a href="ricette.html#${ricetta.id}" class="ricetta-link">${ricetta.nome}</a></li>`).join('')}
+                  </ul>
+                  <div class="hidden-recipes" style="display: none;">
+                    <ul class="ricette-list">
+                      ${hiddenRecipes.map(ricetta => `<li><a href="ricette.html#${ricetta.id}" class="ricetta-link">${ricetta.nome}</a></li>`).join('')}
+                    </ul>
+                  </div>
+                  <div class="toggle-container mt-2">
+                    <button class="btn btn-link toggle-recipes-btn">Read more</button>
+                  </div>
+                `;
+              } else {
+                ricetteLinks = `
+                  <p class="card-text">Recipes:</p>
+                  <ul class="ricette-list">
+                    ${ricette.map(ricetta => `<li><a href="ricette.html#${ricetta.id}" class="ricetta-link">${ricetta.nome}</a></li>`).join('')}
+                  </ul>
+                `;
+              }
+            }
+      
+            const card = document.createElement('div');
+            card.className = 'ingredient-card col-md-4 mb-4';
+      
+            // Recupera l'immagine della categoria o usa un fallback
+            const imagePath = categoryImages[ingrediente.categoria] || categoryImages.Default;
+      
+            card.innerHTML = `
+              <div class="card">
+                <div class="card-header">
+                  <img src="${imagePath}" alt="${ingrediente.categoria}" class="card-img-top">
+                  <h5 class="card-title">${ingrediente.nome}</h5>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">Category: ${ingrediente.categoria}</p>
+                  ${ricetteLinks}
+                  <a href="https://www.wikidata.org/wiki/${ingrediente.wikidata}" target="_blank" class="btn btn-primary wikidata-button">
+                    Learn more
+                  </a>
+                </div>
+              </div>
+            `;
+            ingredientiContainer.appendChild(card);
+          });
+        }
+      
+        // Recupera le ricette associate a un ingrediente confrontando gli ID
+        function getRicetteByIngredient(ingredientId) {
+          const ingrediente = ingredientiData.find(ing => ing.id === ingredientId);
+          if (!ingrediente || !ingrediente.ricette) return [];
+          return ricetteData.filter(ricetta => ingrediente.ricette.includes(ricetta.id));
+        }
+      
+        // Event listener per il toggle della lista di ricette con effetto scroll
+        document.addEventListener('click', function(e) {
+          if (e.target && e.target.classList.contains('toggle-recipes-btn')) {
+            const btn = e.target;
+            // Il contenitore nascosto è l'elemento precedente al container del toggle
+            const hiddenContainer = btn.closest('.toggle-container').previousElementSibling;
+            if (hiddenContainer.style.display === "none" || hiddenContainer.style.display === "") {
+              hiddenContainer.style.display = "block";
+              btn.textContent = "Read less";
+              // Effetto scroll: scorri dolcemente verso il container espanso
+              hiddenContainer.scrollIntoView({ behavior: "smooth", block: "start" });
+             
+            } else {
+              hiddenContainer.style.display = "none";
+              btn.textContent = "Read more";
+              // Se vuoi, puoi anche scrollare verso l'alto fino alla card:
+              btn.closest('.card').scrollIntoView({ behavior: "smooth", block: "start" });
+            }
+          }
+        });
+      });
+      </script>
+      
+      
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

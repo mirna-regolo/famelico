@@ -1,0 +1,110 @@
+[
+  {
+    "id": "lazio",
+    "nome": "Lazio",
+    "descrizione": "Regione del centro Italia famosa per piatti come la Carbonara e l'Amatriciana.",
+    "img": "lazio.webp"
+  },
+  {
+    "id": "toscana",
+    "nome": "Toscana",
+    "descrizione": "Rinomata per la cucina rustica, vini come il Chianti e piatti come la Ribollita.",
+    "img": "toscana.webp"
+  },
+  {
+    "id": "sicilia",
+    "nome": "Sicilia",
+    "descrizione": "Culla di sapori mediterranei con piatti come gli Arancini e la Cassata.",
+    "img": "sicilia.webp"
+  },
+  {
+    "id": "marche",
+    "nome": "Marche",
+    "descrizione": "Rinomata per la cucina rustica, vini come il Chianti e piatti come la Ribollita.",
+    "img": "marche.webp"
+  },
+  {
+    "id": "umbria",
+    "nome": "Umbria",
+    "descrizione": "Rinomata per la cucina rustica, vini come il Chianti e piatti come la Ribollita.",
+    "img": "umbria.webp"
+  },
+  {
+    "id": "liguria",
+    "nome": "Liguria",
+    "descrizione": "Rinomata per la cucina rustica, vini come il Chianti e piatti come la Ribollita.",
+    "img": "liguria.webp"
+  },
+  {
+    "id": "puglia",
+    "nome": "Puglia",
+    "descrizione": "Rinomata per la cucina rustica, vini come il Chianti e piatti come la Ribollita.",
+    "img": "puglia.webp"
+  },
+  {
+    "id": "veneto",
+    "nome": "Veneto",
+    "descrizione": "Rinomata per la cucina rustica, vini come il Chianti e piatti come la Ribollita.",
+    "img": "veneto.webp"
+  },
+  { "id": "molise",
+    "nome": "Molise",
+    "descrizione": "Rinomata per la cucina rustica, vini come il Chianti e piatti come la Ribollita.",
+    "img": "molise.webp"
+  },
+  { "id": "campania",
+    "nome": "Campania",
+    "descrizione": "Rinomata per la cucina rustica, vini come il Chianti e piatti come la Ribollita.",
+    "img": "campania.webp"
+  },
+  { "id": "sardegna",
+    "nome": "Sardegna",
+    "descrizione": "Rinomata per la cucina rustica, vini come il Chianti e piatti come la Ribollita.",
+    "img": "sardegna.webp"
+  },
+  { "id": "abruzzo",
+    "nome": "Abruzzo",
+    "descrizione": "Rinomata per la cucina rustica, vini come il Chianti e piatti come la Ribollita.",
+    "img": "abruzzo.webp"
+  },
+  { "id": "calabria",
+    "nome": "Calabria",
+    "descrizione": "Rinomata per la cucina rustica, vini come il Chianti e piatti come la Ribollita.",
+    "img": "calabria.webp"
+  },
+  { "id": "basilicata",
+    "nome": "Basilicata",
+    "descrizione": "Rinomata per la cucina rustica, vini come il Chianti e piatti come la Ribollita.",
+    "img": "basilicata.webp"
+  },
+  { "id": "lombardia",
+    "nome": "Lombardia",
+    "descrizione": "Rinomata per la cucina rustica, vini come il Chianti e piatti come la Ribollita.",
+    "img": "lombardia.webp"
+  },
+  { "id": "emilia-romagna",
+    "nome": "Emilia-Romagna",
+    "descrizione": "Rinomata per la cucina rustica, vini come il Chianti e piatti come la Ribollita.",
+    "img": "emilia-romagna.webp"
+  },
+  { "id": "valle-d-aosta",
+    "nome": "Valle d'Aosta",
+    "descrizione": "Rinomata per la cucina rustica, vini come il Chianti e piatti come la Ribollita.",
+    "img": "valle-d-aosta.webp"
+  },
+  { "id": "trentino-alto-adige",
+    "nome": "Trentino Alto Adige",
+    "descrizione": "Rinomata per la cucina rustica, vini come il Chianti e piatti come la Ribollita.",
+    "img": "trentino-alto-adige.webp"
+  },
+  { "id": "piemonte",
+    "nome": "Piemonte",
+    "descrizione": "Rinomata per la cucina rustica, vini come il Chianti e piatti come la Ribollita.",
+    "img": "piemonte.webp"
+  },
+  { "id": "friuli-venezia-giulia",
+    "nome": "Friuli Venezia Giulia",
+    "descrizione": "Rinomata per la cucina rustica, vini come il Chianti e piatti come la Ribollita.",
+    "img": "friuli-venezia-giulia.webp"
+  }
+]

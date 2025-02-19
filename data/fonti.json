@@ -1,0 +1,20 @@
+[
+  {
+    "id": "artusi1891",
+    "titolo": "La Scienza in Cucina",
+    "autore": "Pellegrino Artusi",
+    "anno": 1891
+  },
+  {
+    "id": "boni1929",
+    "titolo": "Il Talismano della Felicità",
+    "autore": "Ada Boni",
+    "anno": 1929
+  },
+  {
+    "id": "cucina-italiana-tradizionale",
+    "titolo": "Cucina Italiana Tradizionale",
+    "autore": "Giovanni Rossi",
+    "anno": 1975
+  }
+]
