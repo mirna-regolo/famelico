@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>famelico - Artusi</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <!-- File CSS personalizzato -->
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-container">
+      <a class="navbar-brand" href="../index.html">famelico</a>
+      <ul class="nav-links">
+        <li><a href="../ingredienti.html">Ingredients</a></li>
+        <li><a href="../ricette.html">Recipes</a></li>
+        <li><a href="../regioni.html">Regions</a></li>
+        <li><a href="../fonti.html" class="active">Sources</a></li>
+      </ul>
+      <div class="navbar-right"><a href="about.html">About</a></div>
+    </div>
+  </nav>
+  
+  <!-- Contenuto Principale -->
+  <div class="container mt-5 pt-5">
+    <div class="row align-items-center mb-6">
+      <div class="d-flex justify-content-start align-items-center mb-3">
+        <button class="btn btn-secondary me-3" id="back-to-sources">
+          <i class="fas fa-arrow-left"></i> Back to Sources
+        </button>
+      </div>
+      <div class="col-md-6">
+        <img src="../images/cover-artusi.jpg" alt="cover-artusi" class="img-container">
+      </div>
+      <div class="col-md-6">
+        <div class="description">
+          <p>
+            <i><b>La scienza in cucina e l'arte di mangiar bene</b></i> by Pellegrino Artusi is more than a cookbook—it’s a celebration of Italian cuisine and tradition. Published in 1891, it helped shape a national culinary identity at a time when Italy was still deeply divided by regional differences.<br>
+            <br>Artusi, a passionate food lover rather than a professional chef, collected recipes from across the country, blending them with witty anecdotes and practical advice. His warm, engaging style made the book accessible to home cooks, emphasizing simple, flavorful dishes made with quality ingredients.<br>
+            <br>Initially self-published due to publishers’ doubts, it became a beloved classic, influencing generations of cooks. Even today, reading Artusi feels like stepping into a traditional Italian kitchen, where food is about history, culture, and the joy of sharing a meal.</p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Sezione Autore -->
+    <div class="row align-items-center mb-5">
+      <h2 class="section-title">The Author</h2>
+      <div class="col-md-6 order-md-2">
+        <img src="../images/aut-artusi.webp" alt="Pellegrino Artusi" class="img-container img-author">
+      </div>
+      <div class="col-md-6 order-md-1">
+        <div class="description">
+          <p><b>Pellegrino Artusi</b> was a self-taught gastronome whose passion for Italian cuisine shaped the country’s culinary identity. Born in 1820 in Forlimpopoli, he spent much of his life traveling and collecting recipes, which he later compiled into La scienza in cucina e l’arte di mangiar bene (1891).<br>
+            <br>Initially self-published, the book became a household staple, blending recipes with humor, anecdotes, and practical advice. Artusi’s legacy endures as a symbol of traditional Italian home cooking, proving that food is not just nourishment but a reflection of culture and shared heritage.</p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Sezione Varianti delle Ricette -->
+    <div class="container-fluid mt-5">
+      <h2 class="section-title">Artusian Variations of Recipes</h2>
+      <p>Pellegrino Artusi embraced a flexible approach to cooking, often adapting recipes with alternative ingredients and practical variations. <i>La scienza in cucina e l'arte di mangiar bene</i> encouraged home cooks to experiment, offering multiple ways to prepare dishes based on availability. This adaptability made his work timeless, ensuring Italian cuisine remained both accessible and authentic.</p>
+      <div class="row mt-4" id="variants-container">
+        <!-- Le card verranno generate qui dinamicamente -->
+      </div>
+  </div>
+    
+  </div>
+  
+  <!-- Bottone per navigazione rapida (opzionale) -->
+  <a href="#variants-container" class="navigation-btn">
+    <i class="fas fa-arrow-down"></i>
+  </a>
+  
+  <footer class="footer">
+    <div class="footer-container">
+      <!-- Logo or Project Name -->
+      <a class="footer-logo">famelico
+      </a>
+      <!-- Project Information -->
+      <div class="footer-info">
+        <p>&copy; 2024 Famelico. All rights reserved.</p>
+        <p>
+          Project developed for the final thesis in 
+          <a href="https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge" target="_blank" style="color: #971a0f">Digital Humanities and Digital Knowledge</a>.
+        </p>
+      </div>
+      <!-- Social Media -->
+      <div class="footer-social">
+        <a href="https://github.com" target="_blank" aria-label="Github">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="60" height="60" viewBox="0,0,256,256">
+            <g fill="#5a4631" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+              <g transform="scale(8.53333,8.53333)">
+                <path d="M15,3c-6.627,0 -12,5.373 -12,12c0,5.623 3.872,10.328 9.092,11.63c-0.056,-0.162 -0.092,-0.35 -0.092,-0.583v-2.051c-0.487,0 -1.303,0 -1.508,0c-0.821,0 -1.551,-0.353 -1.905,-1.009c-0.393,-0.729 -0.461,-1.844 -1.435,-2.526c-0.289,-0.227 -0.069,-0.486 0.264,-0.451c0.615,0.174 1.125,0.596 1.605,1.222c0.478,0.627 0.703,0.769 1.596,0.769c0.433,0 1.081,-0.025 1.691,-0.121c0.328,-0.833 0.895,-1.6 1.588,-1.962c-3.996,-0.411 -5.903,-2.399 -5.903,-5.098c0,-1.162 0.495,-2.286 1.336,-3.233c-0.276,-0.94 -0.623,-2.857 0.106,-3.587c1.798,0 2.885,1.166 3.146,1.481c0.896,-0.307 1.88,-0.481 2.914,-0.481c1.036,0 2.024,0.174 2.922,0.483c0.258,-0.313 1.346,-1.483 3.148,-1.483c0.732,0.731 0.381,2.656 0.102,3.594c0.836,0.945 1.328,2.066 1.328,3.226c0,2.697 -1.904,4.684 -5.894,5.097c1.098,0.573 1.899,2.183 1.899,3.396v2.734c0,0.104 -0.023,0.179 -0.035,0.268c4.676,-1.639 8.035,-6.079 8.035,-11.315c0,-6.627 -5.373,-12 -12,-12z"></path>
+              </g>
+            </g>
+          </svg>
+        </a>
+        <a href="https://linkedin.com" target="_blank" aria-label="Linkedin">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="60" height="60" viewBox="0,0,256,256">
+            <g fill="#5a4631" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+              <g transform="scale(8.53333,8.53333)">
+                <path d="M24,4h-18c-1.105,0 -2,0.895 -2,2v18c0,1.105 0.895,2 2,2h18c1.105,0 2,-0.895 2,-2v-18c0,-1.105 -0.895,-2 -2,-2zM10.954,22h-2.95v-9.492h2.95zM9.449,11.151c-0.951,0 -1.72,-0.771 -1.72,-1.72c0,-0.949 0.77,-1.719 1.72,-1.719c0.948,0 1.719,0.771 1.719,1.719c0,0.949 -0.771,1.72 -1.719,1.72zM22.004,22h-2.948v-4.616c0,-1.101 -0.02,-2.517 -1.533,-2.517c-1.535,0 -1.771,1.199 -1.771,2.437v4.696h-2.948v-9.492h2.83v1.297h0.04c0.394,-0.746 1.356,-1.533 2.791,-1.533c2.987,0 3.539,1.966 3.539,4.522z"></path>
+              </g>
+            </g>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Script per caricare le varianti e associare l'immagine dalla ricetta -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const backToSourcesBtn = document.getElementById('back-to-sources');
+    if (backToSourcesBtn) {
+      backToSourcesBtn.addEventListener('click', () => {
+        window.location.href = '../fonti.html';
+      });
+    }
+
+    Promise.all([
+      fetch('../data/varianti.json').then(response => response.json()),
+      fetch('../data/ricette.json').then(response => response.json())
+    ])
+    .then(([variants, recipes]) => {
+      // Definisce la fonte corrente (la pagina in cui siamo)
+      const currentSource = "fonti/artusi.html";
+      
+      // Filtra le varianti per la fonte corrente
+      const filteredVariants = variants.filter(variant => variant.fonte === currentSource);
+      
+      const container = document.getElementById("variants-container");
+      if (!container) {
+        console.error("Container delle varianti non trovato");
+        return;
+      }
+      
+      filteredVariants.forEach(variant => {
+        // Estrai l'ID della ricetta dalla variante (formato "ricetta-suffisso")
+        const variantId = variant.id; // es: "tortellini-artusi"
+        const lastHyphen = variantId.lastIndexOf("-");
+        let recipeId = variantId;
+        if (lastHyphen !== -1) {
+          recipeId = variantId.substring(0, lastHyphen);
+        }
+        
+        // Cerca la ricetta corrispondente in ricette.json
+        const recipe = recipes.find(r => r.id === recipeId);
+        
+        // Imposta l'immagine e l'alt text (default se non trovata)
+        let imgSrc = "../images/default.png";
+        let altText = variant.nome;
+        if (recipe && recipe.immagine) {
+          imgSrc = "../" + recipe.immagine;
+          altText = recipe.nome;
+        }
+        
+        // Crea il contenitore della card (colonna Bootstrap)
+        const col = document.createElement("div");
+        col.className = "col-md-6 mb-4";
+        
+        // Crea la card
+        const card = document.createElement("div");
+        card.className = "variant-card";
+        
+        // Crea il link cliccabile per l'intera card
+        const link = document.createElement("a");
+        link.href = variant.fonte + "#" + variant["anchor:"];
+        link.style.textDecoration = "none";
+        link.style.color = "inherit";
+        
+        // ---- HEADER: una riga con immagine e titolo in linea ----
+        const header = document.createElement("div");
+        header.className = "variant-card-header";
+        
+        const img = document.createElement("img");
+        img.src = imgSrc;
+        img.alt = altText;
+        img.className = "variant-img";
+        
+        const title = document.createElement("h3");
+        title.className = "variant-title";
+        title.textContent = variant.nome;
+        
+        header.appendChild(img);
+        header.appendChild(title);
+        
+        const body = document.createElement("div");
+        body.className = "variant-card-body";
+        
+        const descriptionEl = document.createElement("div");
+        descriptionEl.className = "variant-description";
+        if (variant.description && variant.description.length > 100) {
+          descriptionEl.classList.add("collapsed");
+        }
+        descriptionEl.innerHTML = variant.description ? variant.description : "";
+        body.appendChild(descriptionEl);
+        
+        if (variant.description && variant.description.length > 100) {
+          const readMoreLink = document.createElement("a");
+          readMoreLink.href = "#";
+          readMoreLink.className = "read-more";
+          readMoreLink.textContent = "Read more";
+          readMoreLink.addEventListener("click", function(e) {
+            e.preventDefault();
+            if (descriptionEl.classList.contains("collapsed")) {
+              descriptionEl.classList.remove("collapsed");
+              readMoreLink.textContent = "Read less";
+            } else {
+              descriptionEl.classList.add("collapsed");
+              readMoreLink.textContent = "Read more";
+            }
+          });
+          body.appendChild(readMoreLink);
+        }
+        
+        // Assembla la card: prima il blocco header, poi il blocco body
+        card.appendChild(header);
+        card.appendChild(body);
+        
+        link.appendChild(card);
+        col.appendChild(link);
+        container.appendChild(col);
+      });
+    })
+    .catch(error => console.error("Errore nel caricamento dei dati:", error));
+  });
+  </script>
+  
+  
+  
+</body>
+</html>

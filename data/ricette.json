@@ -1,0 +1,142 @@
+[
+  {
+    "id": "tortellini",
+    "nome": "Tortellini",
+    "regione": "Emilia-Romagna",
+    "categoria": "First courses",
+    "immagine": "images/tortellini.png",
+    "varianti": ["tortellini-artusi", "tortellini-boni", "tortellini-carnacina", "tortellini-accademia", "tortellini-agnetti"]
+  },
+  {
+    "id": "polenta-salsicce",
+    "nome": "Polenta con le salsicce",
+    "regione": "Valle d'Aosta",
+    "categoria": "First courses",
+    "immagine": "images/polenta-salsicce.png",
+    "varianti": ["polenta-salsicce-artusi", "polenta-salsicce-boni", "polenta-salsicce-carnacina", "polenta-salsicce-accademia"]
+  },
+
+  {
+    "id": "finanziera",
+    "nome": "Finanziera",
+    "descrizione": "Se vi sono buongustai per predestinazione, ve ne sono anche per condizione sociale: e debbo segnalarne quattro grandi categorie: i finanzieri, i medici, i letterati e i devoti. I finanzieri sono gli eroi del buon gusto. Qui eroe è la parola esatta, perché ci fu una guerra: e l’aristocrazia nobiliare avrebbe schiacciato i finanzieri sotto il peso dei titoli e degli stemmi se i finanzieri non vi avessero opposto una tavola sontuosa e le casseforti.(…). Perciò in tutte le serie di preparazioni che ci offrono i libri di cucina elementare ce n’è sempre una, o parecchie, che si chiama alla finanziera.",
+    "regione": "Piemonte",
+    "categoria": "Main courses",
+    "immagine": "images/finanziera.png",
+    "varianti": ["finanziera-artusi", "finanziera-boni", "finanziera-carnacina"]
+  },
+  {
+    "id": "zabaione",
+    "nome": "Zabaione",
+    "regione": "Piemonte",
+    "categoria": "Dessert",
+    "immagine": "images/zabaione.jpg",
+    "varianti": ["zabaione-artusi", "zabaione-boni", "zabaione-carnacina", "zabaione-accademia"]
+  },
+  {
+    "id": "risotto",
+    "nome": "Risotto alla milanese",
+    "regione": "Lombardia",
+    "categoria": "First courses",
+    "immagine": "images/risotto.png",
+    "varianti": ["risotto-artusi", "risotto-boni", "risotto-carnacina", "risotto-accademia", "risotto-agnetti"]
+  },
+  {
+    "id": "cotoletta",
+    "nome": "Cotoletta alla milanese",
+    "regione": "Lombardia",
+    "categoria": "Main courses",
+    "immagine": "images/cotoletta.png",
+    "varianti": ["cotoletta-artusi", "cotoletta-boni", "cotoletta-carnacina", "cotoletta-accademia", "cotoletta-agnetti"]
+  },
+  {
+    "id": "gnocchi",
+    "nome": "Gnocchetti de gries",
+    "regione": "Trentino-Alto Adige",
+    "categoria": "First courses",
+    "immagine": "images/gnocchi.png",
+    "varianti": ["gnocchi-artusi", "gnocchi-boni", "gnocchi-carnacina"]
+  },
+  {
+    "id": "strudel",
+    "nome": "Strudel",
+    "regione": "Trentino-Alto Adige",
+    "categoria": "Dessert",
+    "immagine": "images/strudel.png",
+    "varianti": ["strudel-artusi", "strudel-boni", "strudel-carnacina", "strudel-accademia"]
+  },
+
+  {
+    "id": "risibisi",
+    "nome": "Risi e bisi",
+    "regione": "Veneto",
+    "categoria": "First courses",
+    "immagine": "images/risibisi.png",
+    "varianti": ["risibisi-artusi", "risibisi-boni", "risibisi-carnacina", "risibisi-agnetti"]
+  },
+  {
+    "id": "baccala-mantecato",
+    "nome": "Baccalà mantecato",
+    "regione": "Veneto",
+    "categoria": "Appetizers",
+    "immagine": "images/baccala-mantecato.jpg",
+    "varianti": ["baccala-mantecato-artusi", "baccala-mantecato-boni", "baccala-mantecato-carnacina", "baccala-mantecato-accademia", "baccala-mantecato-agnetti"]
+  },
+  {
+    "id": "minestra_ceci_liguria",
+    "nome": "Minestra di ceci",
+    "regione": "Liguria",
+    "categoria": "Soups",
+    "immagine": "images/minestra_ceci.jpg",
+    "varianti": ["artusi"]
+  },
+  {
+    "id": "tortariso",
+    "nome": "Torta di riso",
+    "regione": "Emilia-Romagna",
+    "categoria": "Dessert",
+    "immagine": "images/tortariso.png",
+    "varianti": ["tortariso-artusi", "tortariso-boni", "tortariso-carnacina", "tortariso-accademia"]
+  },
+
+  {
+    "id": "ragubolognese",
+    "nome": "Ragù bolognese",
+    "regione": "Emilia-Romagna",
+    "categoria": "Sauces",
+    "immagine": "images/ragubolognese.png",
+    "varianti": ["ragubolognese-artusi", "ragubolognese-boni", "ragubolognese-carnacina", "ragubolognese-accademia", "ragubolognese-agnetti"]
+  },
+  {
+    "id": "ribollita",
+    "nome": "Ribollita",
+    "regione": "Toscana",
+    "categoria": "Soups",
+    "immagine": "images/ribollita.png",
+    "varianti": ["ribollita-artusi", "ribollita-boni", "ribollita-carnacina", "ribollita-accademia", "ribollita-agnetti"]
+  },
+  {
+    "id": "cacciucco",
+    "nome": "Cacciucco",
+    "regione": "Toscana",
+    "categoria": "Soups", 
+    "immagine": "images/cacciucco.png",
+    "varianti": ["cacciucco-artusi", "cacciucco-boni", "cacciucco-carnacina", "cacciucco-accademia", "cacciucco-agnetti"]
+  },
+  {
+    "id": "pesto",
+    "nome": "Pesto di basilico",
+    "regione": "Liguria",
+    "categoria": "Sauces",
+    "immagine": "images/pesto.png",
+    "varianti": ["pesto-boni", "pesto-carnacina"]
+  },
+  {
+    "id": "pasta-sarde",
+    "nome": "Pasta con le sarde",
+    "regione": "Sicilia",
+    "categoria": "First courses",
+    "immagine": "images/pasta_.jpg",
+    "varianti": ["pasta-sarde-artusi", "pasta-sarde-boni", "pasta-sarde-carnacina", "pasta-sarde-accademia", "pasta-sarde-agnetti"]
+  }
+]

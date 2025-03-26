@@ -1,0 +1,777 @@
+[
+  {
+    "id": "uova",
+    "nome": "Uova",
+    "categoria": "Animal origin",
+    "img": "images/uova.png",
+    "wikidata": "Q93189",
+    "ricette": [
+      "tortellini",
+      "zabaione",
+      "tortariso",
+      "fiadoni",
+      "pallottole_pane_formaggio",
+      "cotoletta",
+      "crescia_dolce_pasqua",
+      "gatto_patate",
+      "pastiera_di_grano",
+      "strudel",
+      "rocciata"
+    ]
+  },
+  {
+    "id": "maccheroni",
+    "nome": "Maccheroni",
+    "categoria": "Cereals and derivatives",
+    "img": "images/maccheroni.png",
+    "wikidata": "Q99661387",
+    "ricette": [
+      "pasta-sarde",
+      "maccheroni_pomodoro",
+      "maccheroni_pecora"
+    ]
+  },
+  {
+    "id": "pecorino",
+    "nome": "Pecorino",
+    "categoria": "Dairy",
+    "img": "latticini.png",
+    "ricette": [
+      "carbonara"
+    ]
+  },
+  {
+    "id": "prosciutto_crudo",
+    "nome": "Prosciutto Crudo",
+    "categoria": "Meat and derivative",
+    "img": "images/prosciutto_crudo.png",
+    "ricette": [
+      "tortellini"
+    ]
+  },
+  {
+    "id": "mortadella",
+    "nome": "Mortadella",
+    "categoria": "Meat and derivative",
+    "img": "images/mortadella.png",
+    "ricette": [
+      "tortellini"
+    ]
+  },
+  {
+    "id": "parmigiano_reggiano",
+    "nome": "Parmigiano Reggiano",
+    "categoria": "Dairy",
+    "img": "images/latticini.png",
+    "ricette": [
+      "tortellini",
+      "risotto",
+      "ragubolognese"
+    ]
+  },
+  {
+    "id": "basilico",
+    "nome": "Basilico",
+    "categoria": "Erbe aromatiche",
+    "img": "images/basilico.png",
+    "ricette": [
+      "pesto",
+      "pizza_napoletana",
+      "maccheroni_pomodoro"
+    ]
+  },
+  {
+    "id": "pinoli",
+    "nome": "Pinoli",
+    "categoria": "Frutta secca",
+    "img": "images/pinoli.png",
+    "ricette": [
+      "pesto",
+      "pasta-sarde",
+      "castagnaccio"
+    ]
+  },
+  {
+    "id": "aglio",
+    "nome": "Aglio",
+    "categoria": "Spezie e Aromi",
+    "img": "images/aglio.png",
+    "ricette": [
+      "pesto",
+      "risotto",
+      "cotoletta",
+      "minestra_ceci_liguria",
+      "ragubolognese",
+      "ribollita",
+      "cacciucco",
+      "brodetto_pesce_marche",
+      "bucatini_guanciale",
+      "maccheroni_pomodoro",
+      "orecchiette_cime_rapa",
+      "focaccia_pomodoro",
+      "lampascioni_in_umido",
+      "pasta_con_mollica",
+      "lagane_fagioli_calabria"
+    ]
+  },
+  {
+    "id": "olio_extravergine_oliva",
+    "nome": "Olio Extravergine di Oliva",
+    "categoria": "Condimenti",
+    "img": "images/olio_extravergine_oliva.png",
+    "ricette": [
+      "pesto",
+      "risotto",
+      "cotoletta",
+      "minestra_ceci_liguria",
+      "ragubolognese",
+      "ribollita",
+      "cacciucco",
+      "brodetto_pesce_marche",
+      "baccala-mantecato",
+      "pizza_napoletana",
+      "maccheroni_pomodoro",
+      "focaccia_pomodoro",
+      "pasta_con_mollica",
+      "lagane_fagioli_calabria",
+      "lampascioni_in_umido",
+      "pasta-sarde",
+      "caponata"
+    ]
+  },
+  {
+    "id": "polenta",
+    "nome": "Polenta",
+    "categoria": "Cereals and derivatives",
+    "img": "images/polenta.png",
+    "ricette": [
+      "polenta-salsicce"
+    ]
+  },
+  {
+    "id": "salsicce",
+    "nome": "Sausage",
+    "categoria": "Meat and derivative",
+    "img": "images/carne.png",
+    "ricette": [
+      "polenta-salsicce"
+    ]
+  },
+  {
+    "id": "fegato",
+    "nome": "Liver",
+    "categoria": "Meat and derivative",
+    "img": "images/fegato.png",
+    "ricette": [
+      "finanziera"
+    ]
+  },
+  {
+    "id": "animelle",
+    "nome": "Sweetbread",
+    "categoria": "Meat and derivative",
+    "img": "images/animelle.png",
+    "ricette": [
+      "finanziera"
+    ]
+  },
+  {
+    "id": "funghi",
+    "nome": "Funghi",
+    "categoria": "Funghi e Tartufo",
+    "img": "images/funghi.png",
+    "ricette": [
+      "finanziera"
+    ]
+  },
+  {
+    "id": "vino_rosso",
+    "nome": "Vino Rosso",
+    "categoria": "Bevande/Condimenti",
+    "img": "images/vino_rosso.png",
+    "ricette": [
+      "finanziera",
+      "ragubolognese",
+      "piccioni_in_umido",
+      "agnello_cacciatora"
+    ]
+  },
+  {
+    "id": "zucchero",
+    "nome": "Zucchero",
+    "categoria": "Dolcificanti",
+    "img": "images/zucchero.png",
+    "ricette": [
+      "zabaione",
+      "tortariso",
+      "crescia_dolce_pasqua",
+      "pignolata_miele",
+      "cannoli_ricotta",
+      "pastiera_di_grano"
+    ]
+  },
+  {
+    "id": "uova",
+    "nome": "Uova",
+    "categoria": "Animal origin",
+    "img": "images/uova.png",
+    "wikidata": "Q93189",
+    "ricette": [
+      "tortellini",
+      "zabaione",
+      "tortariso",
+      "fiadoni",
+      "pallottole_pane_formaggio",
+      "cotoletta",
+      "crescia_dolce_pasqua",
+      "gatto_patate",
+      "pastiera_di_grano",
+      "strudel",
+      "rocciata"
+    ]
+  },
+  {
+    "id": "marsala",
+    "nome": "Marsala",
+    "categoria": "Vini e liquori",
+    "img": "images/marsala.png",
+    "ricette": [
+      "zabaione"
+    ]
+  },
+  {
+    "id": "riso",
+    "nome": "Riso",
+    "categoria": "Cereals and derivatives",
+    "img": "images/riso.png",
+    "ricette": [
+      "risotto",
+      "tortariso",
+      "risibisi",
+      "arancini_riso",
+      "pastiera_di_grano"
+    ]
+  },
+  {
+    "id": "zafferano",
+    "nome": "Zafferano",
+    "categoria": "Spezie",
+    "img": "images/zafferano.png",
+    "ricette": [
+      "risotto"
+    ]
+  },
+  {
+    "id": "pangrattato",
+    "nome": "Pangrattato",
+    "categoria": "Cereals and derivatives",
+    "img": "images/pangrattato.png",
+    "ricette": [
+      "cotoletta",
+      "arancini_riso"
+    ]
+  },
+  {
+    "id": "vitello",
+    "nome": "Veal",
+    "categoria": "Meat and derivative",
+    "img": "images/carne.png",
+    "ricette": [
+      "cotoletta"
+    ]
+  },
+  {
+    "id": "pane",
+    "nome": "Pane",
+    "categoria": "Cereals and derivatives",
+    "img": "images/pane.png",
+    "ricette": [
+      "pallottole_pane_formaggio",
+      "pasta_con_mollica"
+    ]
+  },
+  {
+    "id": "semolino",
+    "nome": "Semolino",
+    "categoria": "Cereals and derivatives",
+    "img": "images/semolino.png",
+    "ricette": [
+      "gnocchi"
+    ]
+  },
+  {
+    "id": "mele",
+    "nome": "Mele",
+    "categoria": "Frutta",
+    "img": "images/mele.png",
+    "ricette": [
+      "strudel",
+      "rocciata"
+    ]
+  },
+  {
+    "id": "cannella",
+    "nome": "Cannella",
+    "categoria": "Spezie",
+    "img": "images/cannella.png",
+    "ricette": [
+      "strudel",
+      "gatto_patate"
+    ]
+  },
+  {
+    "id": "uvetta",
+    "nome": "Uvetta",
+    "categoria": "Frutta secca",
+    "img": "images/uvetta.png",
+    "ricette": [
+      "strudel",
+      "pastiera_di_grano"
+    ]
+  },
+  {
+    "id": "cipolla",
+    "nome": "Cipolla",
+    "categoria": "Ortaggi",
+    "img": "images/cipolla.png",
+    "ricette": [
+      "risotto",
+      "ragubolognese",
+      "ribollita",
+      "brodetto_pesce_marche",
+      "piccioni_in_umido",
+      "agnello_cacciatora",
+      "maccheroni_pecora"
+    ]
+  },
+  {
+    "id": "vino_bianco",
+    "nome": "Vino Bianco",
+    "categoria": "Bevande/Condimenti",
+    "img": "images/vino_bianco.png",
+    "ricette": [
+      "cotoletta",
+      "agnello_cacciatora"
+    ]
+  },
+  {
+    "id": "brodo",
+    "nome": "Brodo",
+    "categoria": "Condimenti",
+    "img": "images/brodo.png",
+    "ricette": [
+      "risotto",
+      "risibisi"
+    ]
+  },
+  {
+    "id": "carota",
+    "nome": "Carota",
+    "categoria": "Ortaggi",
+    "img": "images/carota.png",
+    "ricette": [
+      "ragubolognese",
+      "ribollita"
+    ]
+  },
+  {
+    "id": "sedano",
+    "nome": "Sedano",
+    "categoria": "Ortaggi",
+    "img": "images/sedano.png",
+    "ricette": [
+      "ragubolognese",
+      "ribollita"
+    ]
+  },
+  {
+    "id": "latte",
+    "nome": "Latte",
+    "categoria": "Dairy",
+    "img": "images/latticini.png",
+    "ricette": [
+      "baccala-mantecato",
+      "tortariso",
+      "gatto_patate",
+      "pastiera_di_grano"
+    ]
+  },
+  {
+    "id": "prezzemolo",
+    "nome": "Prezzemolo",
+    "categoria": "Erbe aromatiche",
+    "img": "images/prezzemolo.png",
+    "ricette": [
+      "baccala-mantecato"
+    ]
+  },
+  {
+    "id": "ceci",
+    "nome": "Ceci",
+    "categoria": "Legumi",
+    "img": "images/ceci.png",
+    "ricette": [
+      "minestra_ceci_liguria",
+      "lagane_ceci_molise"
+    ]
+  },
+  {
+    "id": "vaniglia",
+    "nome": "Vaniglia",
+    "categoria": "Spezie",
+    "img": "images/vaniglia.png",
+    "ricette": [
+      "tortariso",
+      "pastiera_di_grano"
+    ]
+  },
+  {
+    "id": "limone",
+    "nome": "Limone",
+    "categoria": "Frutta",
+    "img": "images/limone.png",
+    "ricette": [
+      "tortariso"
+    ]
+  },
+  {
+    "id": "cavolo_nero",
+    "nome": "Black cabbage",
+    "categoria": "Vegetables",
+    "img": "images/vegetables.png",
+    "ricette": [
+      "ribollita"
+    ]
+  },
+  {
+    "id": "fagioli_cannellini",
+    "nome": "Fagioli Cannellini",
+    "categoria": "Legumi",
+    "img": "images/fagioli_cannellini.png",
+    "ricette": [
+      "ribollita"
+    ]
+  },
+  {
+    "id": "melanzane",
+    "nome": "Melanzane",
+    "categoria": "Ortaggi",
+    "img": "images/melanzane.png",
+    "ricette": [
+      "caponata"
+    ]
+  },
+  {
+    "id": "capperi",
+    "nome": "Capperi",
+    "categoria": "Condimenti",
+    "img": "images/capperi.png",
+    "ricette": [
+      "caponata"
+    ]
+  },
+  {
+    "id": "olive",
+    "nome": "Olive",
+    "categoria": "Condimenti",
+    "img": "images/olive.png",
+    "ricette": [
+      "caponata",
+      "agnello_cacciatora"
+    ]
+  },
+  {
+    "id": "aceto",
+    "nome": "Aceto",
+    "categoria": "Condimenti",
+    "img": "images/aceto.png",
+    "ricette": [
+      "caponata"
+    ]
+  },
+  {
+    "id": "finocchietto_selvatico",
+    "nome": "Finocchietto Selvatico",
+    "categoria": "Erbe aromatiche",
+    "img": "images/finocchietto_selvatico.png",
+    "ricette": [
+      "pasta-sarde"
+    ]
+  },
+  {
+    "id": "sarde",
+    "nome": "Sarde",
+    "categoria": "Pesce",
+    "img": "images/sarde.png",
+    "ricette": [
+      "pasta-sarde"
+    ]
+  },
+  {
+    "id": "ricotta",
+    "nome": "Ricotta",
+    "categoria": "Dairy",
+    "img": "images/latticini.png",
+    "ricette": [
+      "cannoli_ricotta",
+      "pastiera_di_grano"
+    ]
+  },
+  {
+    "id": "farina",
+    "nome": "Farina",
+    "categoria": "Cereals and derivatives",
+    "img": "images/farina.png",
+    "ricette": [
+      "crescia_dolce_pasqua",
+      "pizza_napoletana",
+      "focaccia_pomodoro",
+      "castagnaccio"
+    ]
+  },
+  {
+    "id": "lievito",
+    "nome": "Lievito",
+    "categoria": "Cereals and derivatives",
+    "img": "images/lievito.png",
+    "ricette": [
+      "pizza_napoletana",
+      "focaccia_pomodoro"
+    ]
+  },
+  {
+    "id": "mozzarella",
+    "nome": "Mozzarella",
+    "categoria": "Dairy",
+    "img": "images/latticini.png",
+    "ricette": [
+      "pizza_napoletana",
+      "arancini_riso"
+    ]
+  },
+  {
+    "id": "origano",
+    "nome": "Origano",
+    "categoria": "Erbe aromatiche",
+    "img": "images/origano.png",
+    "ricette": [
+      "focaccia_pomodoro"
+    ]
+  },
+  {
+    "id": "lampascioni",
+    "nome": "Lampascioni",
+    "categoria": "Ortaggi",
+    "img": "images/lampascioni.png",
+    "ricette": [
+      "lampascioni_in_umido"
+    ]
+  },
+  {
+    "id": "peperoncino",
+    "nome": "Peperoncino",
+    "categoria": "Spezie",
+    "img": "images/peperoncino.png",
+    "ricette": [
+      "orecchiette_cime_rapa",
+      "pasta_con_mollica",
+      "lampascioni_in_umido"
+    ]
+  },
+  {
+    "id": "acqua",
+    "nome": "Acqua",
+    "categoria": "Liquidi",
+    "img": "images/acqua.png",
+    "ricette": [
+      "pizza_napoletana",
+      "focaccia_pomodoro"
+    ]
+  },
+  {
+    "id": "sale",
+    "nome": "Sale",
+    "categoria": "Condimenti",
+    "img": "images/sale.png",
+    "ricette": [
+      "cotoletta",
+      "maccheroni_pomodoro",
+      "pizza_napoletana",
+      "focaccia_pomodoro",
+      "lagane_fagioli_calabria",
+      "pastiera_di_grano",
+      "gatto_patate",
+      "tortariso"
+    ]
+  },
+  {
+    "id": "burro",
+    "nome": "Butter",
+    "categoria": "Dairy",
+    "img": "images/burro.png",
+    "ricette": [
+      "risotto",
+      "strudel",
+      "tortariso",
+      "ragubolognese",
+      "fiadoni",
+      "gatto_patate",
+      "pignolata_miele"
+    ]
+  },
+  {
+    "id": "pistacchi",
+    "nome": "Pistacchi",
+    "categoria": "Frutta secca",
+    "img": "images/pistacchi.png",
+    "ricette": [
+      "cannoli_ricotta"
+    ]
+  },
+  {
+    "id": "canditi",
+    "nome": "Canditi",
+    "categoria": "Dolci",
+    "img": "images/canditi.png",
+    "ricette": [
+      "cannoli_ricotta",
+      "pastiera_di_grano"
+    ]
+  },
+  {
+    "id": "arancia",
+    "nome": "Arancia (scorza)",
+    "categoria": "Frutta",
+    "img": "images/arancia.png",
+    "ricette": [
+      "pastiera_di_grano"
+    ]
+  },
+  {
+    "id": "acqua_fiori_arancio",
+    "nome": "Acqua di Fiori d'Arancio",
+    "categoria": "Condimenti",
+    "img": "images/acqua_fiori_arancio.png",
+    "ricette": [
+      "pastiera_di_grano"
+    ]
+  },
+  {
+    "id": "rosmarino",
+    "nome": "Rosmarino",
+    "categoria": "Erbe aromatiche",
+    "img": "images/rosmarino.png",
+    "ricette": [
+      "lagane_ceci_molise",
+      "lagane_fagioli_calabria",
+      "minestra_ceci_liguria",
+      "castagnaccio"
+    ]
+  },
+  {
+    "id": "acciughe",
+    "nome": "Acciughe",
+    "categoria": "Pesce",
+    "img": "images/acciughe.png",
+    "ricette": [
+      "orecchiette_cime_rapa"
+    ]
+  },
+  {
+    "id": "carne_di_pecora",
+    "nome": "Carne di Pecora",
+    "categoria": "Meat and derivative",
+    "img": "images/carne.png",
+    "ricette": [
+      "maccheroni_pecora"
+    ]
+  },
+  {
+    "id": "agnello",
+    "nome": "Lamb meat",
+    "categoria": "Meat and derivative",
+    "img": "images/carne.png",
+    "ricette": [
+      "agnello_cacciatora"
+    ]
+  },
+  {
+    "id": "fagioli",
+    "nome": "Fagioli",
+    "categoria": "Legumes",
+    "img": "images/fagioli.png",
+    "ricette": [
+      "lagane_fagioli_calabria"
+    ]
+  },
+  {
+    "id": "miele",
+    "nome": "Miele",
+    "categoria": "Dolci",
+    "img": "images/miele.png",
+    "ricette": [
+      "pignolata_miele"
+    ]
+  },
+  {
+    "id": "pesce_misto",
+    "nome": "Pesce Misto",
+    "categoria": "Pesce",
+    "img": "images/pesce_misto.png",
+    "ricette": [
+      "cacciucco",
+      "brodetto_pesce_marche"
+    ]
+  },
+  {
+    "id": "pomodoro",
+    "nome": "Pomodoro",
+    "categoria": "Vegetables",
+    "img": "images/vegetables.png",
+    "ricette": [
+      "maccheroni_pomodoro",
+      "pasta_con_mollica",
+      "caponata",
+      "agnello_cacciatora",
+      "maccheroni_pecora",
+      "ragubolognese",
+      "pizza_napoletana"
+    ]
+  },
+  {
+    "id": "grano",
+    "nome": "Grano",
+    "categoria": "Cereals and derivatives",
+    "img": "images/grano.png",
+    "ricette": [
+      "pastiera_di_grano"
+    ]
+  },
+  {
+    "id": "cime_di_rapa",
+    "nome": "Cime di Rapa",
+    "categoria": "Ortaggi",
+    "img": "images/cime_di_rapa.png",
+    "ricette": [
+      "orecchiette_cime_rapa"
+    ]
+  },
+  {
+    "id": "farina_di_castagne",
+    "nome": "Farina di Castagne",
+    "categoria": "Cereals and derivatives",
+    "img": "images/farina_di_castagne.png",
+    "ricette": [
+      "castagnaccio"
+    ]
+  },
+  {
+    "id": "patate",
+    "nome": "Patate",
+    "categoria": "Ortaggi",
+    "img": "images/patate.png",
+    "ricette": [
+      "gatto_patate"
+    ]
+  }
+]
